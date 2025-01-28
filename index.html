@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link rel="shortcut icon" href="./imges/quiz.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="bg-white pb-2 w-25 mx-auto text-center mt-5 display-2 rounded-3 animate__animated animate__zoomInDown fw-bolder">Quiz App</h1>
+
+    <section class="choices mt-5 animate__animated animate__fadeInUp animate__delay-1s vh-100">
+        <div class="w-75  mx-auto p-3">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-md-3">
+                        <div class="btn-category fs-1 fw-semibold bg-info-subtle text-center rounded-4 cursor btn-hov" value = "21">
+                            Sports
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="btn-category fs-1 fw-semibold bg-info-subtle text-center rounded-4 cursor btn-hov" value = "23">
+                            History
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="btn-category fs-1 fw-semibold bg-info-subtle text-center rounded-4 cursor btn-hov"  value = "27">
+                            Animals
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="btn-category fs-1 fw-semibold bg-info-subtle text-center rounded-4 cursor btn-hov"  value = "25">
+                            Art
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="btn-difficulty fs-1 fw-semibold bg-success text-center rounded-4 cursor btn-hov" value ="easy">
+                            Easy
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="btn-difficulty fs-1 fw-semibold bg-warning text-center rounded-4 cursor btn-hov" value = "medium">
+                            Medium
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="btn-difficulty fs-1 fw-semibold bg-danger text-center rounded-4 cursor btn-hov" value = "hard">
+                            Hard
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row g-3">
+                    <div class="col-md-3">
+                        <div class="btn-amount fs-1 fw-semibold bg-secondary-subtle text-center rounded-4 cursor btn-hov">
+                            5
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="btn-amount fs-1 fw-semibold bg-secondary-subtle text-center rounded-4 cursor btn-hov">
+                            10
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="btn-amount fs-1 fw-semibold bg-secondary-subtle text-center rounded-4 cursor btn-hov ">
+                            15
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="btn-amount fs-1 fw-semibold bg-secondary-subtle text-center rounded-4 cursor btn-hov">
+                            20
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-danger text-center mt-3 d-none" id="msgError">Complete your choices</h2>
+            <div class="container mt-5">
+                <button class="btn btn-outline-primary w-100 fs-1 fw-semibold" id="btnStart">Start</button>
+            </div>
+        </div>
+    </section>
+    <section class="question mt-5 vh-100">
+        
+    </section>
+<section id="end" class="mt-5">
+    
+</section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
